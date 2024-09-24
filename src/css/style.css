@@ -1,0 +1,21 @@
+@font-face {
+  font-family: PressStart2P;
+  src: url(/src/fonts/PressStart2P-vaV7.ttf);
+}
+
+body {
+  font-family: PressStart2P;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+canvas {
+  display: block;
+  background: white;
+}
